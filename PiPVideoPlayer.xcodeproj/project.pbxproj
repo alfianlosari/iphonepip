@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		8B899CEF21F328EC00FF9A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B899CEE21F328EC00FF9A7D /* AppDelegate.swift */; };
-		8B899CF121F328EC00FF9A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B899CF021F328EC00FF9A7D /* ViewController.swift */; };
 		8B899CF421F328EC00FF9A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B899CF221F328EC00FF9A7D /* Main.storyboard */; };
 		8B899CF621F328ED00FF9A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B899CF521F328ED00FF9A7D /* Assets.xcassets */; };
 		8B899CF921F328ED00FF9A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B899CF721F328ED00FF9A7D /* LaunchScreen.storyboard */; };
+		8B899D0121F3293800FF9A7D /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B899D0021F3293800FF9A7D /* VideoListViewController.swift */; };
+		8B899D0321F3298000FF9A7D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B899D0221F3298000FF9A7D /* Video.swift */; };
+		8B899D0521F32B2100FF9A7D /* PIPVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B899D0421F32B2100FF9A7D /* PIPVideoPlayer.swift */; };
+		8B899D0921F35EA000FF9A7D /* VideoPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B899D0821F35EA000FF9A7D /* VideoPlayerView.xib */; };
+		8B899D0C21F41C7300FF9A7D /* VideoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B899D0A21F41C7200FF9A7D /* VideoViewCell.swift */; };
+		8B899D0D21F41C7300FF9A7D /* VideoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B899D0B21F41C7200FF9A7D /* VideoViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B899CEB21F328EC00FF9A7D /* PiPVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B899CEE21F328EC00FF9A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B899CF021F328EC00FF9A7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B899CF321F328EC00FF9A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B899CF521F328ED00FF9A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B899CF821F328ED00FF9A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B899CFA21F328ED00FF9A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B899D0021F3293800FF9A7D /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		8B899D0221F3298000FF9A7D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		8B899D0421F32B2100FF9A7D /* PIPVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPVideoPlayer.swift; sourceTree = "<group>"; };
+		8B899D0821F35EA000FF9A7D /* VideoPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPlayerView.xib; sourceTree = "<group>"; };
+		8B899D0A21F41C7200FF9A7D /* VideoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewCell.swift; sourceTree = "<group>"; };
+		8B899D0B21F41C7200FF9A7D /* VideoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				8B899CEE21F328EC00FF9A7D /* AppDelegate.swift */,
-				8B899CF021F328EC00FF9A7D /* ViewController.swift */,
+				8B899D0021F3293800FF9A7D /* VideoListViewController.swift */,
+				8B899D0221F3298000FF9A7D /* Video.swift */,
+				8B899D0421F32B2100FF9A7D /* PIPVideoPlayer.swift */,
+				8B899D0821F35EA000FF9A7D /* VideoPlayerView.xib */,
 				8B899CF221F328EC00FF9A7D /* Main.storyboard */,
 				8B899CF521F328ED00FF9A7D /* Assets.xcassets */,
 				8B899CF721F328ED00FF9A7D /* LaunchScreen.storyboard */,
 				8B899CFA21F328ED00FF9A7D /* Info.plist */,
+				8B899D0A21F41C7200FF9A7D /* VideoViewCell.swift */,
+				8B899D0B21F41C7200FF9A7D /* VideoViewCell.xib */,
 			);
 			path = PiPVideoPlayer;
 			sourceTree = "<group>";
@@ -124,7 +139,9 @@
 			files = (
 				8B899CF921F328ED00FF9A7D /* LaunchScreen.storyboard in Resources */,
 				8B899CF621F328ED00FF9A7D /* Assets.xcassets in Resources */,
+				8B899D0D21F41C7300FF9A7D /* VideoViewCell.xib in Resources */,
 				8B899CF421F328EC00FF9A7D /* Main.storyboard in Resources */,
+				8B899D0921F35EA000FF9A7D /* VideoPlayerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B899CF121F328EC00FF9A7D /* ViewController.swift in Sources */,
+				8B899D0521F32B2100FF9A7D /* PIPVideoPlayer.swift in Sources */,
+				8B899D0C21F41C7300FF9A7D /* VideoViewCell.swift in Sources */,
+				8B899D0121F3293800FF9A7D /* VideoListViewController.swift in Sources */,
+				8B899D0321F3298000FF9A7D /* Video.swift in Sources */,
 				8B899CEF21F328EC00FF9A7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
